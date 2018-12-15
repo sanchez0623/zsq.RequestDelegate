@@ -4,6 +4,12 @@ using System.Threading.Tasks;
 
 namespace zsq.RequestDelegate
 {
+    //参考链接
+    //https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-2.1
+    //源码地址
+    //https://github.com/aspnet/HttpAbstractions
+    //https://github.com/aspnet/HttpAbstractions/blob/master/src/Microsoft.AspNetCore.Http/Internal/ApplicationBuilder.cs
+    //https://github.com/aspnet/HttpAbstractions/blob/master/src/Microsoft.AspNetCore.Http.Abstractions/Extensions/UseExtensions.cs
     //参考dotnet core RequestDelegate源码 实现的RequestDelegate demo
     class Program
     {
